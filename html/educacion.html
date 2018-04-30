@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Gonzalo Lugo Ramos">
+    <meta name="description" content="Hoja de vida de Gonzalo Lugo.">
+    <meta name="keywords" content="hoja de vida, gonzalo lugo, html, curso">
+    <title>Gonzalo Lugo Ramos</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150px" height="100px">
+        <image xlink:href="../images/Logo_GLR.svg" width="150px" height="100px"></image>
+      </svg>
+      <h1>Currículum Vitae</h1>
+      <h2>Nombre: <em>Gonzalo Lugo Ramos</em></h2>
+      <h3>Fecha y Lugar de Nacimiento: <em>4 de Abril de 1991 en México, D.F.</em></h3>
+      <nav>
+        <a href="../index.html" target="_self">Inicio</a> |
+        <a href="#educacion.html" target="_self">Educación</a> |
+        <a href="experiencia.html" target="_self">Experiencia</a>
+      </nav>
+    </header>
+    <section>
+      <article class="educacion">
+        <h2>Educación</h2>
+        <table border="1px" cellpadding="10px" cellspacing="0px">
+          <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Sede</th>
+            <th>Nivel</th>
+            <th>Título</th>
+            <th>Estatus</th>
+          </thead>
+          <tr align="center">
+            <td>2018</td>
+            <td>Next University</td>
+            <td>Online</td>
+            <td>Diplomado</td>
+            <td>Desarrollo Web</td>
+            <td>En Proceso</td>
+          </tr>
+          <tr align="center">
+            <td>2016</td>
+            <td>Universidad TecMilenio</td>
+            <td>Campus Ferrería</td>
+            <td>Maestría</td>
+            <td>Gestión de Tecnologías de Información</td>
+            <td>Terminada</td>
+          </tr>
+          <tr align="center">
+            <td>2012</td>
+            <td>Universidad TecMilenio</td>
+            <td>Campus Ferrería</td>
+            <td>Licenciatura</td>
+            <td>Ingeniería en Sistemas de Computación Administrativa</td>
+            <td>Terminada</td>
+          </tr>
+        </table>
+
+        <form>
+          <fieldset>
+            <legend><h3>Registro de estudios</h3></legend>
+              <!-- AÑO DE ESTUDIOS -->
+              <label for="anio">Año:</label>
+              <select class="" name="anio">
+                <option value="7">2018</option>
+                <option value="6">2017</option>
+                <option value="5">2016</option>
+                <option value="4">2015</option>
+                <option value="3">2014</option>
+                <option value="2">2013</option>
+                <option value="1">2012</option>
+              </select>
+              <br>
+              <!-- INSTITUCIÓN -->
+              <label for="institucion">Institución:</label>
+              <input type="text" name="institucion" placeholder="Ej. Universidad TecMilenio">
+              <br>
+              <!-- SEDE -->
+              <label for="sede">Sede:</label>
+              <input type="text" name="sede" placeholder="Ej. Campus Cuautitlán Izcalli">
+              <br>
+              <!-- NIVEL -->
+              <label for="nivel">Nivel:</label>
+              <input type="radio" name="nivel" value="1">
+              Licenciatura
+              <input type="radio" name="nivel" value="2">
+              Maestría
+              <input type="radio" name="nivel" value="3">
+              Doctorado
+              <input type="radio" name="nivel" value="4">
+              Posgrado
+              <br>
+              <!-- TÍTULO -->
+              <label for="titulo">Título:</label>
+              <input type="text" name="titulo" placeholder="Ej. Gestión de Tecnologías de Información">
+              <br>
+              <!-- ESTATUS -->
+              <label for="estatus">Año:</label>
+              <select class="" name="estatus">
+                <option value="3">En proceso</option>
+                <option value="2">Terminada</option>
+                <option value="1">Trunca</option>
+              </select>
+              <br>
+              <!-- BOTON DE SUBMIT -->
+              <button type="" name="enviar">Registrar nuevo estudio</button>
+          </fieldset>
+        </form>
+
+      </article>
+    </section>
+    <footer>
+      <strong>Ficha de contacto:</strong> <br>
+      Correo electrónico: <a href="mailto:gonzalo.lugo@nextu.com"> <em>gonzalo.lugo@nextu.com</em></a><br>
+      Teléfono: 55-55-55-55-55 <br>
+      Redes sociales: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+    </footer>
+  </body>
+</html>
